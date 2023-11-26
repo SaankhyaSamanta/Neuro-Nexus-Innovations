@@ -34,8 +34,6 @@ def Classification(classifier, x_train, y_train, x_test, y_test):
     report = classification_report(y_test, predictions)
     return predictions, report
 
-# GFG
-
 df = pd.read_csv("spam.csv",encoding='latin-1')
 print(df.head())
 
