@@ -56,7 +56,6 @@ def Scores(y_test, predictions):
     RI = rand_score(y_test, predictions)
     return Acc, F1Score, JScore, FMScore, RI
 
-#Medium
 Dataset = pandas.read_csv('Iris.csv')
 content = pandas.DataFrame()
 attr = len(Dataset.columns)
