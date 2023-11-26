@@ -15,8 +15,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report,accuracy_score
 from sklearn.preprocessing import StandardScaler
 
-#Github
-
 #Decision Tree Classifier
 def DecisionTree(X_train, Y_train, X_test, Y_test):
     classifier = DecisionTreeClassifier() 
