@@ -7,7 +7,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
 
-#Medium
 data = pd.read_csv('imdb_top_1000.csv')
 X = np.array(data.Overview)
 
