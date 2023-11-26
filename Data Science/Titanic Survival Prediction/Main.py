@@ -51,8 +51,6 @@ def Classification(classifier, X_train, Y_train, X_test):
     score = round(classifier.score(X_train, Y_train) * 100, 2)
     return predictions, score
 
-#Medium
-
 test_df = pd.read_csv("test.csv")
 train_df = pd.read_csv("train.csv")
 print(train_df.info())
